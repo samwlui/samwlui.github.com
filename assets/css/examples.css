@@ -376,6 +376,9 @@ p{
 .team p{
 	color: rgba(255,255,255,0.75);
 }
+.team h1{
+	color: rgba(255,255,255,0.75);
+}
 
 /*html {
     font-size: 20px;
