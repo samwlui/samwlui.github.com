@@ -1,1 +1,285 @@
-<!DOCTYPE HTML><html><head><meta content="text/html; charset=utf-8"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><title>Sam Lui</title><style type="text/css">*{margin:0;padding:0}@media only screen and (min-device-width:100px) and (max-device-width:640px){body{background:url(images/landing-large-2x.png) no-repeat center center fixed;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover}}@media only screen and (min-device-width:641px){body{background:url(images/landing-large-2x.png) no-repeat center center fixed;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover}}</style><!--[if lte IE 8]><style type="text/css">body{background:url(images/landing.png) no-repeat center center fixed;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/landing-large-2x.png',sizingMethod='scale');-ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/landing-large-2x.png', sizingMethod='scale')"}</style><![endif]--></head><body></body></html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>L F C C</title>
+	<meta name="author" content="Life and Fruit Community Church" />
+	<meta name="description" content="fullPage full-screen navigation and sections control menu." />
+	<meta name="keywords"  content="fullpage,jquery,demo,screen,fullscreen,navigation,control arrows, dots" />
+	<meta name="Resource-type" content="Document" />
+
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/examples.css" />
+	<link href='http://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Arvo:400,400italic' rel='stylesheet' type='text/css'>
+	
+
+<!-- Latest compiled and minified JavaScript -->
+
+	<style>
+
+	/* Style for our header texts
+	* --------------------------------------- */
+	h1{
+		font-size: 5em;
+		font-family: arial,helvetica;
+		color: #fff;
+		margin:0;
+	}
+
+	/* Centered texts in each section
+	* --------------------------------------- */
+	.section{
+		text-align:center;
+	}
+
+	/* Overwriting styles for control arrows for slides
+	* --------------------------------------- */
+	.controlArrow.prev {
+		left: 50px;
+	}
+	.controlArrow.next{
+		right: 50px;
+	}
+
+
+	/* Bottom menu
+	* --------------------------------------- */
+	#infoMenu li a {
+		color: #fff;
+	}
+	</style>
+
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+	<script type="text/javascript" src="assets/js/jquery.slimscroll.min.js"></script>
+
+	<script type="text/javascript" src="assets/js/jquery.fullPage.min.js"></script>
+	<script type="text/javascript" src="examples.js"></script>
+	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/js/lfcc.js"></script>
+
+</head>
+<body>
+
+<div id="fullpage">
+	<div class="section " id="section0">
+		<div class="intro">
+			<img src="assets/img/LFCC_REBRAND_LOGO.svg"  alt="1"/>
+			<h1>Welcome</h1>
+			<p>We are currently working hard to launch a brand new website!
+			In the meantime, please see the information below, and don’t 
+			hesitate to contact us with questions or even just hello’s. </p>
+		</div>
+	</div>
+	<div class="section" id="section1">
+	    <div class="slide" id="slide1">
+			<div class="ministries">
+				<h1>Congregation: Sunday Worship Service &amp; Life Groups</h1>
+				<p>Join us as we worship and learn from the good Word. After service, we meet with our Life Groups to share about the sermon and our weeks.</p>
+				<div class="sub">
+					<h3><span id="labelname">9:30 AM</span> Congregational worship </h3>
+					<h3><span id="labelname">11:00 AM</span> Life Groups </h3>
+					<h3><span id="labelname">Location</span> KCD</h3>
+					<h3><span id="labelname">Contact</span> <a href="mailto:sunnykang36@gmail.com">Sunny Kang</a></h3>
+				</div>
+			</div>
+		</div>
+
+	    <div class="slide" id="slide2">
+	    	<div class="ministries">
+				<h1>Children: Life &amp; Fruit Kids</h1>
+				<p>Life and Fruit Kids takes place during Sunday worship service. Each week, we bring the children to the altar to bless them in prayer and in song before sending them off! Life Groups rotate monthly to serve and love the youngest of our congregation.</p>
+				<div class="sub">
+					<h3><span id="labelname">9:30 AM</span> Sunday </h3>
+					<h3><span id="labelname">Location</span> KCD</h3>
+					<h3><span id="labelname">Contact</span> <a href="mailto:judykim722@gmail.com">Pastor Judy No</a></h3>
+				</div>
+			</div>
+		</div>
+		<div class="slide" id="slide3">
+			<div class="ministries">
+				<h1>College Students: ACTS Ministries</h1>
+				<p>We strive to share the Gospel of Christ and to replicate the community found in the book of Acts. Based at UTD, ACTS Ministries is a spiritual home and community for many, including students from SMU, UTA, UNT, and other universities!</p>
+				<div class="sub">
+					<h3><span id="labelname">Large Groups</span></h3>
+					<h3><span id="labelname">7:00 PM</span> Fridays </h3>
+					<h3><span id="labelname">Location</span> KCD</h3>
+					<h3><span id="labelname">Contact</span> <a href="mailto:chaeyno@gmail.com">Pastor Chae No</a></h3>
+				</div>
+				<div class="sub">
+					<h3><span id="labelname">Family Groups</span></h3>
+					<h3><span id="labelname">7:00 PM</span> Wednesdays &amp; Thursdays </h3>
+					<h3>
+						<span id="labelname">Wednesdays Contact</span> 
+						<a href="mailto:daniel.jkim17@gmail.com">Daniel Kim</a> &amp; 
+						<a href="mailto:christinepaik526@gmail.com">Christine Paik</a>
+					</h3>
+					<h3>
+						<span id="labelname">Thursdays Contact</span> 
+						<a href="mailto:jtsok94@gmail.com">Jonathan Sok</a> &amp; 
+						<a href="mailto:kramnmartinez@gmail.com">Mark Martinez</a>
+					</h3>
+				</div>
+			</div>
+		</div>
+		<div class="slide" id="slide4">
+			<div class="ministries">
+				<h1>Young Adults: SEED Gathering</h1>
+				<p>We love our Fridays! As we wrestle with how to be God-fearing and loving individuals at our schools and workplaces, we are going through the series of Jesus’ Parables. Come beforehand for a home-cooked dinner.</p>
+				<div class="sub">
+					<h3><span id="labelname">Fridays</span></h3>
+					<h3><span id="labelname">6:00 PM </span> Dinner</h3>
+					<h3><span id="labelname">7:00 PM</span> Bible Study</h3>
+					<h3><span id="labelname">Location</span> Varies between members' homes</h3>
+					<h3><span id="labelname">Contact</span> <a href="mailto:elijaah.kim@gmail.com">Elijah Kim</a></h3>
+				</div>
+			</div>
+		</div>
+		<div class="slide" id="slide5">
+			<div class="ministries">
+				<h1>Married/Families: Cell Groups &amp; Discipleship</h1>
+				<p>We gather regularly to share life and to encourage one another as we are refined by God’s good work in our lives. We are always welcoming new couples and families, so please reach out and say hi!</p>
+				<div class="sub">
+					<h3><span id="labelname">Cell Groups</span></h3>
+					<h3><span id="labelname">5:00 PM</span> First Saturday of every month</h3>
+					<h3><span id="labelname">Location</span> Varies between members’ homes</h3>
+					<h3><span id="labelname">Contact</span> <a href="mailto:yongcson@gmail.com">Yon Son</a></h3>
+				</div>
+				<div class="sub">
+					<h3><span id="labelname">Discipleship (Babysitting Provided!)</span></h3>
+					<h3><span id="labelname">7:00 PM</span> Saturdays</h3>
+					<h3><span id="labelname">Location</span> KCD</h3>
+					<h3><span id="labelname">Contact</span> <a href="mailto:chaeyno@gmail.com">Pastor Chae No</a></h3>
+				</div>
+			</div>
+		</div>
+		<div class="slide" id="slide6">
+			<div class="ministries">
+				<h1>Congregation: Prayer Gatherings</h1>
+				<p>We are a church hungry to pray corporately and individually.</p>
+				<div class="sub">
+					<h3><span id="labelname">Praise &amp; Prayer Night</span></h3>
+					<h3><span id="labelname">7:30 PM</span> First Friday of every month</h3>
+					<h3><span id="labelname">Location</span> KCD</h3>
+					<h3><span id="labelname">Contact</span> <a href="mailto:hyunkookro@gmail.com">Pastor David Ro</a></h3>
+				</div>
+				<div class="sub">
+					<h3><span id="labelname">Wednesday Night Prayer</span></h3>
+					<h3><span id="labelname">7:30 PM</span> 2nd, 3rd &amp; 4th Wednesday</h3>
+					<h3><span id="labelname">Location</span> Various Apartments in Dallas/Irving</h3>
+					<h3><span id="labelname">Contact</span> <a href="mailto:jkangx89@gmail.com">Jonathan Kang</a></h3>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section" id="section1">
+	    <div class="slide" id="pastor1">
+	    	<div class="team">
+				<div class="ministries">
+					<h1>Pastor Chae No</h1>
+					<p>Loves Jesus a lot.</p>
+				</div>
+			</div>
+		</div>
+
+	    <div class="slide" id="pastor2">
+	    	<div class="ministries">
+		    	<div class="team">
+					<h1>Pastor John Kim</h1>
+					<p>Super smart</p>
+				</div>
+			</div>
+		</div>
+		<div class="slide" id="pastor3">
+			<div class="ministries">
+				<div class="team">
+					<h1>Pastor David Ro</h1>
+					<p>Has really cute kids</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section" id="section2">
+		<div class="intro">
+			<h1>Matthew 28:19-20</h1>
+			<p>We exist to become a worshipping community that obeys the Lord’s Greatest Commandment (love God and love others) and the Lord’s Great Commission (go and make disciples of all nations).</p>
+		</div>
+	</div>
+	<div class="section" id="section4">
+		<div class="intro">
+			<h1>Drop us a line!</h1>
+			<p>Looking for community? New to Dallas? Have some questions or want to hear about life with LFCC? Contact members of our Welcoming Team, and we’ll be happy to talk with you.</p>
+			<div class="sub">
+				<h3><span id="labelname">You reach us at </span> <a href="mailto:welcome@lifeandfruitchurch.com">welcome@lifeandfruitchurch.com</a></h3>
+			</div>
+		</div>
+		
+	</div>
+	<div class="section" id="section3">
+		<div class="contact">
+			<div class="hi">
+			<h2>1855 N. Josey Ln, Carrollton, TX 75006</h2>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- <div id="infoMenu">
+	
+
+<ul>
+	<li><a href="https://github.com/alvarotrigo/fullPage.js/archive/master.zip">Download</a></li>
+	<li>
+		<a href="#" id="showExamples">Examples</a>
+		<div id="examplesList">
+			<div class="column">
+				<h3>Navigation</h3>
+				<ul>
+					<li><a href="http://alvarotrigo.com/fullPage/examples/scrollBar.html">Scroll Bar Enabled</a></li>
+					<li><a href="http://alvarotrigo.com/fullPage/examples/normalScroll.html">Normal scrolling</a></li>
+					<li><a href="http://alvarotrigo.com/fullPage/examples/continuous.html">Continuous vertical</a></li>
+					<li><a href="http://alvarotrigo.com/fullPage/examples/noAnchor.html">Without anchor links (same URL)</a></li>
+					<li><a href="http://alvarotrigo.com/fullPage/examples/navigationV.html">Vertical navigation dots</a></li>
+					<li><a href="http://alvarotrigo.com/fullPage/examples/navigationH.html">Horizontal navigation dots</a></li>
+				</ul>
+			</div>
+			<div class="column">
+				<h3>Design</h3>
+				<ul>
+					<li><a href="http://alvarotrigo.com/fullPage/examples/backgrounds.html">Full backgrounds</a></li>
+					<li><a href="http://alvarotrigo.com/fullPage/examples/videoBackground.html">Full background videos</a></li>
+					<li><a href="http://alvarotrigo.com/fullPage/examples/gradientBackgrounds.html">Gradient backgrounds</a></li>
+					<li><a href="http://alvarotrigo.com/fullPage/examples/scrolling.html">Scrolling inside sections and slides</a></li>
+					<li><a href="http://alvarotrigo.com/fullPage/examples/fixedHeaders.html">Adding fixed header and footer</a></li>
+					<li><a href="http://alvarotrigo.com/fullPage/examples/oneSection.html">One single section</a></li>
+				</ul>
+			</div>
+			<div class="column">
+				<h3>Other</h3>
+				<ul>
+					<li><a href="http://alvarotrigo.com/fullPage/examples/apple.html">Animations on scrolling</a></li>
+					<li><a href="http://alvarotrigo.com/fullPage/examples/methods.html">Functions and methods</a></li>
+				</ul>
+			</div>
+		</div>
+
+	</li>
+	<li><a href="https://github.com/alvarotrigo/fullPage.js#fullpagejs">Documentation</a></li>
+	<li><a href="http://alvarotrigo.com/#contact-page">Contact</a></li>
+</ul>
+
+</div> -->
+
+</body>
+</html>
