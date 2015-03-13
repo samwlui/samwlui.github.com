@@ -332,18 +332,19 @@ p{
 	background-image: url(../img/pchae.jpg);
  	background-size: cover;
  	background-repeat: no-repeat;
+ 	background-position: center;
 }
 #pastor2{
 	background-image: url(../img/pjohn.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-
+	background-position: center;
 }
 #pastor3{
 	background-image: url(../img/pdavid.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-
+	background-position: center;
 }
 
 
