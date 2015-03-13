@@ -349,7 +349,7 @@ p{
 
 
 #section3{
-	background-image: url(../img/map.svg);
+	background-image: url(../img/map.png);
 	background-position: center;
 	padding: 6% 0 0 0;
 }
@@ -403,15 +403,15 @@ p{
 .unbehaved-element {
     font-size: 2em;
 }*/
-@media(max-width: 1580px) {
+@media screen and (max-width: 1580px) {
   .ministries h1 {
     font-size: 3em;
   }
   .ministries p {
-	font-size: 2.5em;
+	font-size: 1.5em;
   }
   .sub h3 {
-  	font-size:100%;
+  	font-size:1.25em;
   }
   .intro h1 {
   	font-size:3em;
@@ -423,18 +423,18 @@ p{
     font-size: 1.9em; /* Fine tune unbehaved elements */
   }
 }
-@media(max-width: 980px) {
+@media screen and (max-width: 980px) {
   .ministries h1 {
-    font-size: 2.5em;
+    font-size: 1.5em;
   }
   .ministries p {
-  	font-size: 1.25em;
+  	font-size: 1.0em;
   }
-  ./*sub h3 {
+  /*sub h3 {
   	font-size:75%;
   }*/
-  sub h3 {
-  	font-size:1em;
+  .sub h3 {
+  	font-size:0.9em;
   }
   .intro h1 {
   	font-size:200%;
